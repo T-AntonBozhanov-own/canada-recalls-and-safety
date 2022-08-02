@@ -11,7 +11,7 @@ fixed            <div className={classes.title} dangerouslySetInnerHTML={{__html
                 <div className={classes.recallId}>{`Recall id: ${data.recallId}`}</div>
                 <div className={classes.category}>{`Category: ${data.category.map(item => CATEGORY_MATCH[item])}`}</div>
             </span>
-            <a href={data.url}>More details</a>
+            <a href={data.url} target="_blanc">More details</a>
             <div className={classes.panels}>
                 {
                     data.panels.map(item => <PanelItem panelData={item} key={item.recallId}/>)
