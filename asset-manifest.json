@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/canada-recalls-and-safety/static/css/main.52410c30.css",
-    "main.js": "/canada-recalls-and-safety/static/js/main.205222cb.js",
+    "main.css": "/canada-recalls-and-safety/static/css/main.183a7e48.css",
+    "main.js": "/canada-recalls-and-safety/static/js/main.83cddf3a.js",
     "static/js/787.9b9ed4e4.chunk.js": "/canada-recalls-and-safety/static/js/787.9b9ed4e4.chunk.js",
     "static/media/can.png": "/canada-recalls-and-safety/static/media/can.cb92698017a5dca8574f.png",
     "index.html": "/canada-recalls-and-safety/index.html",
-    "main.52410c30.css.map": "/canada-recalls-and-safety/static/css/main.52410c30.css.map",
-    "main.205222cb.js.map": "/canada-recalls-and-safety/static/js/main.205222cb.js.map",
+    "main.183a7e48.css.map": "/canada-recalls-and-safety/static/css/main.183a7e48.css.map",
+    "main.83cddf3a.js.map": "/canada-recalls-and-safety/static/js/main.83cddf3a.js.map",
     "787.9b9ed4e4.chunk.js.map": "/canada-recalls-and-safety/static/js/787.9b9ed4e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52410c30.css",
-    "static/js/main.205222cb.js"
+    "static/css/main.183a7e48.css",
+    "static/js/main.83cddf3a.js"
   ]
 }
