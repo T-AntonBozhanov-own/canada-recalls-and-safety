@@ -1,0 +1,17 @@
+.tableWrapper {
+    margin: 0.5rem;
+}
+.tableStyles {
+    border-collapse: collapse;
+}
+
+.tdStyles {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid black;
+}
+
+.thStyles {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}

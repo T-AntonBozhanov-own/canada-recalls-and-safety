@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: lightgray;
+    height: calc(100vh - 103px);
+}
+
+.sidebarItem {
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.sidebar_selectedItem {
+    color: blue;
+}
