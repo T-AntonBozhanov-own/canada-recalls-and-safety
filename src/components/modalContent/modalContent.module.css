@@ -1,0 +1,17 @@
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.subTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.panels {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}

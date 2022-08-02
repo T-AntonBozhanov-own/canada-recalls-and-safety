@@ -1,6 +1,7 @@
 import classes from "./ItemsList.module.css";
 import {useState} from "react";
 import ModalWindow from "../modal";
+import {CATEGORY_MATCH} from "./constants";
 
 const mappedTitles = {
     recallId:  'ID',
@@ -16,6 +17,7 @@ const ItemsList = ({selectedItemList}) => {
         switch (value) {
             case 'date_published': return new Date(list[value] * 1000).toJSON().split("T")[0];
             case 'url': return <button onClick={() => setSelectedItem(list[value])}>Details</button>
+            case 'category': return list[value].map(item => CATEGORY_MATCH[item]).join(', ')
 
             default: return list[value]
         }
@@ -33,7 +35,7 @@ const ItemsList = ({selectedItemList}) => {
                            }
                            </tr>
                         </thead>
-                        <tbody>{selectedItemList.map(el => <tr>{
+                        <tbody>{selectedItemList.map((el, idx) => <tr key={`${el.title}-${idx}`}>{
                             Object.keys(el)
                                 .map((item, index) => <td key={`${el.recallId}${index}`} className={classes.tdStyles}>
                                     {getCellvalue(el, item)}

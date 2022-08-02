@@ -1,0 +1,16 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+}
+
+.closeBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

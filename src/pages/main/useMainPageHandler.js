@@ -5,7 +5,7 @@ export default function useMainPageHandler(lang) {
     const [selectedItem, setSelectedItem] = useState(null)
 
     useEffect(() => {
-        fetch(`http://healthycanadians.gc.ca/recall-alert-rappel-avis/api/recent/${lang}`, {mode: 'no-cors'})
+        fetch(`http://healthycanadians.gc.ca/recall-alert-rappel-avis/api/recent/${lang}`)
             .then((response) => response.json())
             .then((data) => setData(data.results)).catch(e => alert(`Fetch data error, ${e}`));
     }, [lang])
